@@ -1,0 +1,42 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header{
+    display: flex;
+    flex-shrink: 0;
+    background-color: #1f2937;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
